@@ -7,11 +7,11 @@ This project demonstrates the training of the Advantage Actor-Critic (A2C) reinf
 ### 🎮 **Demo**
 Here are two demonstration videos showcasing the performance of the trained agent:
 
-1. **Step 0 to 1000:** Early stage training gameplay.
-   - ![Step 0 to 1000](./test-videos/rl-video-step-0-to-step-1000.mp4)
+1. **before training** Random sample play.
+   - ![Step 0 to 1000](./videos/rl-video-step-0-to-step-1000.gif)
 
 2. **Performance after training**  
-   - ![4 Wins Performance](rl-video-step-0-to-step-1000_4win.mp4)
+   - ![4 Wins Performance](./test-videos/rl-video-step-0-to-step-1000.gif)
 
 ---
 
@@ -33,25 +33,9 @@ Here are two demonstration videos showcasing the performance of the trained agen
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/atari-a2c-breakout.git
-   cd atari-a2c-breakout
+   git clone https://github.com/Prithvijai/Atari_RL.git
+   cd Atari_RL
    ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Train the agent:**
-   ```bash
-   python train.py
-   ```
-
-4. **Watch the trained agent play:**
-   ```bash
-   python evaluate.py
-   ```
-
 ---
 
 
